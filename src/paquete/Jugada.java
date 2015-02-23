@@ -23,7 +23,6 @@ public class Jugada {
         
         tablero = new int[SIZE][SIZE];
         
-        
         for (int x=0; x<SIZE; x++){
             for (int y=0; y<SIZE; y++){
                 tablero[x][y]=0;

@@ -5,12 +5,6 @@
  */
 package paquete;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.MouseListener;
-
-import java.awt.event.ActionListener;
-import javax.swing.JButton;
-
 /**
  *
  * @author Copete
@@ -73,18 +67,88 @@ public class SolitarioChino extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jPanel1MouseEntered(evt);
-            }
-            public void mouseReleased(java.awt.event.MouseEvent evt) {
-                jPanel1MouseReleased(evt);
+
+        jBoton_0_2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_0_2MouseDragged(evt);
             }
         });
 
-        jBoton_6_2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBoton_6_2ActionPerformed(evt);
+        jBoton_0_3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_0_3MouseDragged(evt);
+            }
+        });
+
+        jBoton_0_4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_0_4MouseDragged(evt);
+            }
+        });
+
+        jBoton_1_2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_1_2MouseDragged(evt);
+            }
+        });
+
+        jBoton_1_3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_1_3MouseDragged(evt);
+            }
+        });
+
+        jBoton_1_4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_1_4MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_0.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_0MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_1MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_2MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_3MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_4MouseDragged(evt);
+            }
+        });
+
+        jBoton_2_5.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_2_5MouseDragged(evt);
+            }
+        });
+
+        jBoton_6_2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_6_2MouseDragged(evt);
+            }
+        });
+
+        jBoton_6_3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jBoton_6_3MouseDragged(evt);
             }
         });
 
@@ -113,18 +177,19 @@ public class SolitarioChino extends javax.swing.JFrame {
                                 .addComponent(jBoton_4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(72, 72, 72)
-                                .addComponent(jBoton_5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jBoton_5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jBoton_5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(72, 72, 72)
-                                .addComponent(jBoton_6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jBoton_6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jBoton_6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jBoton_5_2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jBoton_5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jBoton_5_4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jBoton_6_2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jBoton_6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jBoton_6_4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -252,27 +317,73 @@ public class SolitarioChino extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseReleased
-        System.out.println("Hola");
-    }//GEN-LAST:event_jPanel1MouseReleased
+    
+    
+    private void jBoton_6_2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_6_2MouseDragged
+        moverBoton(evt, jBoton_6_2);
+    }//GEN-LAST:event_jBoton_6_2MouseDragged
+
+    private void jBoton_6_3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_6_3MouseDragged
+        moverBoton(evt, jBoton_6_3);
+    }//GEN-LAST:event_jBoton_6_3MouseDragged
+
+    private void jBoton_0_2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_0_2MouseDragged
+        moverBoton(evt, jBoton_0_2);
+    }//GEN-LAST:event_jBoton_0_2MouseDragged
+
+    private void jBoton_0_3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_0_3MouseDragged
+        moverBoton(evt, jBoton_0_3);
+    }//GEN-LAST:event_jBoton_0_3MouseDragged
+
+    private void jBoton_0_4MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_0_4MouseDragged
+        moverBoton(evt, jBoton_0_4);
+    }//GEN-LAST:event_jBoton_0_4MouseDragged
+
+    private void jBoton_1_2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_1_2MouseDragged
+        moverBoton(evt, jBoton_1_2);
+    }//GEN-LAST:event_jBoton_1_2MouseDragged
+
+    private void jBoton_1_3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_1_3MouseDragged
+        moverBoton(evt, jBoton_1_3);
+    }//GEN-LAST:event_jBoton_1_3MouseDragged
+
+    private void jBoton_1_4MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_1_4MouseDragged
+        moverBoton(evt, jBoton_1_4);
+    }//GEN-LAST:event_jBoton_1_4MouseDragged
+
+    private void jBoton_2_0MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_0MouseDragged
+        moverBoton(evt, jBoton_2_0);
+    }//GEN-LAST:event_jBoton_2_0MouseDragged
+
+    private void jBoton_2_1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_1MouseDragged
+        moverBoton(evt, jBoton_2_1);
+    }//GEN-LAST:event_jBoton_2_1MouseDragged
+
+    private void jBoton_2_2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_2MouseDragged
+        moverBoton(evt, jBoton_2_2);
+    }//GEN-LAST:event_jBoton_2_2MouseDragged
+
+    private void jBoton_2_3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_3MouseDragged
+        moverBoton(evt, jBoton_2_3);
+    }//GEN-LAST:event_jBoton_2_3MouseDragged
+
+    private void jBoton_2_4MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_4MouseDragged
+        moverBoton(evt, jBoton_2_4);
+    }//GEN-LAST:event_jBoton_2_4MouseDragged
+
+    private void jBoton_2_5MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBoton_2_5MouseDragged
+        moverBoton(evt, jBoton_2_5);
+    }//GEN-LAST:event_jBoton_2_5MouseDragged
 
     
     
-    private void jPanel1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseEntered
-        
-        int x = evt.getXOnScreen();
-        
-        int y = evt.getYOnScreen();
-        
-        jBoton_6_2.setLocation(evt.getPoint());
-        
-        
-    }//GEN-LAST:event_jPanel1MouseEntered
-
-    private void jBoton_6_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBoton_6_2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jBoton_6_2ActionPerformed
-
+    private void moverBoton(java.awt.event.MouseEvent evt, javax.swing.JButton boton){
+        boton.setLocation(
+                boton.getX() + evt.getX() - boton.getWidth() / 2,
+                boton.getY() + evt.getY() - boton.getHeight() / 2
+        );
+    }
+    
     /**
      * @param args the command line arguments
      */

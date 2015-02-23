@@ -49,10 +49,6 @@
           </Border>
         </Property>
       </Properties>
-      <Events>
-        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MouseEntered"/>
-        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel1MouseReleased"/>
-      </Events>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -77,21 +73,24 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jBoton_4_6" min="-2" pref="30" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-                                  <Component id="jBoton_5_2" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jBoton_5_3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jBoton_5_4" min="-2" pref="30" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-                                  <Component id="jBoton_6_2" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jBoton_6_3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jBoton_6_4" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="72" pref="72" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jBoton_5_2" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jBoton_5_3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jBoton_5_4" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jBoton_6_2" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jBoton_6_3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jBoton_6_4" min="-2" pref="30" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -231,28 +230,64 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JButton" name="jBoton_0_2">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_0_2MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_0_3">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_0_3MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_0_4">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_0_4MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_1_2">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_1_2MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_1_3">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_1_3MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_1_4">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_1_4MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_0">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_0MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_1">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_1MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_2">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_2MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_3">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_3MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_4">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_4MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_5">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_2_5MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_2_6">
         </Component>
@@ -292,10 +327,13 @@
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_6_2">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBoton_6_2ActionPerformed"/>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_6_2MouseDragged"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_6_3">
+          <Events>
+            <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="jBoton_6_3MouseDragged"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jBoton_6_4">
         </Component>
